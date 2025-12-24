@@ -1,0 +1,15 @@
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.DS_Store
+.idea/
+*.iml
+target/
+out/
+*.swp
+*.swo
+*~
+commit-sequence.sh
+
