@@ -1,0 +1,51 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 12px;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #3d8b40;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+}
+
+.list-view {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4px;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 4px;
+}
+
+.titled-pane {
+    -fx-text-fill: #333;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #e0e0e0;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #333;
+}
+
